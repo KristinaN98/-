@@ -1,0 +1,7 @@
+E:\РГППУ\7 семестр\Черноскутов,Инженерия по\Задание Неустроева\ConsoleApp1\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+E:\РГППУ\7 семестр\Черноскутов,Инженерия по\Задание Неустроева\ConsoleApp1\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+E:\РГППУ\7 семестр\Черноскутов,Инженерия по\Задание Неустроева\ConsoleApp1\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+E:\РГППУ\7 семестр\Черноскутов,Инженерия по\Задание Неустроева\ConsoleApp1\ConsoleApp2\obj\Debug\ConsoleApp2.csprojAssemblyReference.cache
+E:\РГППУ\7 семестр\Черноскутов,Инженерия по\Задание Неустроева\ConsoleApp1\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+E:\РГППУ\7 семестр\Черноскутов,Инженерия по\Задание Неустроева\ConsoleApp1\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+E:\РГППУ\7 семестр\Черноскутов,Инженерия по\Задание Неустроева\ConsoleApp1\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
