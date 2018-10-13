@@ -19,7 +19,20 @@ namespace ConsoleApp2
                 str = str + c[i].ToString();
             }
             Console.WriteLine("Зашифрованная строка: {0}", str);
-            char[] k = Shifr(S);
+            for (int i = 0; i < c.Length; i = i + 2)
+            {
+                try
+                {
+                    char a1 = c[i];
+                    c[i] = c[i + 1];
+                    c[i + 1] = a1;
+                }
+                catch (Exception)
+                {
+                    break;
+                }
+
+            }
             string str1 = "";
             for (int i = 0; i < c.Length; i++)
             {
