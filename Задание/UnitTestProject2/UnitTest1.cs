@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Задание;
 
-namespace UnitTestProject1
+namespace UnitTestProject2
 {
     [TestClass]
     public class UnitTest1
@@ -11,36 +11,36 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             string c = "кристюшка";
-            string expected = "тисюшкрка";
-            char[] actual = Program.Shifr(c.ToCharArray());
-            Assert.AreEqual(expected, actual);
+            string expected = "рксиюткша";
+            char [] actual = Program.Shifr(c.ToCharArray());
+            String abc = new String (actual);
+            Assert.AreEqual(expected,abc);
         }
-           
         [TestMethod]
         public void TestMethod2()
         {
             string c = " ";
             string expected = " ";
-            char[] actual=  Program.Shifr(c.ToCharArray());
-            Assert.AreEqual(expected, actual);
-            
+            char[] actual = Program.Shifr(c.ToCharArray());
+            String abc = new String(actual);
+            Assert.AreEqual(expected, abc);
+
         }
         [TestMethod]
         public void TestMethod3()
-        {   
+        {
             try
             {
                 string c = null;
                 Program.Shifr(c.ToCharArray());
 
             }
-            catch (InvalidCastException e)
+            catch (Exception e)
             {
                 Console.Write(e);
             }
-        
+
         }
     }
+
 }
-
-
